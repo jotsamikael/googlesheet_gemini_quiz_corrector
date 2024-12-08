@@ -1,0 +1,21 @@
+{
+  "name": "orientude-past-question",
+  "version": "1.0.0",
+  "description": "past questions of oreintude",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon"
+  },
+  "author": "jotsamikael",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "@huggingface/agents": "^0.0.5",
+    "@huggingface/hub": "^0.15.1",
+    "@huggingface/inference": "^2.7.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^137.1.0",
+    "objects-to-csv": "^1.3.6",
+    "openai": "^4.48.1"
+  }
+}
